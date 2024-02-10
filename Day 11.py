@@ -30,7 +30,7 @@ def compare(user_score, computer_score):
     elif user_score == 0:
         return "Win with a blackJack"
     elif user_score > 21:
-        return "You went over. You win"
+        return "You went over. You Lose"
     elif computer_score > 21:
         return "Opponent  went over. You win"
     elif user_score > computer_score:
